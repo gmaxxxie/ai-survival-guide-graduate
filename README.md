@@ -35,15 +35,19 @@ phases/
 
 ## 两个版本，怎么选？
 
-| 分支 | 适用人群 | 核心框架 |
-|------|---------|---------|
-| `main`（当前） | 理工科（计算机/电子/机械/数学/物理等） | Awakening → Skill Tree → Project → Resume/Interview → Day-one → First Month → Day60-100 → Knowledge → Career → AI+You → Startup → Soft Skills |
-| `arts` | 文科/商科/艺术/法学等非技术背景 | 文字感知力 + 叙事能力 + 三叶草 + 作品集思维 + AI翻译官 + 感知力职场 |
+| 版本 | 内容 | 路径 |
+|------|------|------|
+| 理工科版 | 计算机/电子/机械/数学/物理等 | `phases/`（主目录） |
+| 文科/商科版 | 中文/新闻/商科/法律/艺术等 | `tracks/arts/phases/` |
 
-切换版本：
 ```bash
-git checkout main   # 理工科版
-git checkout arts   # 文科/商科版
+# 理工科版
+git checkout main
+python3 scripts/install_skills.py ~/.claude/skills
+
+# 文科/商科版
+cd tracks/arts
+python3 scripts/install_skills.py ~/.claude/skills
 ```
 
 ---
