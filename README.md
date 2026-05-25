@@ -1,6 +1,6 @@
-# AI Survival Guide for Graduates（理工科毕业生AI生存指南）
+# AI Survival Guide for Graduates
 
-> 从毕业到就业，AI时代的完整导航
+> 理工科版本 / 文科商科版 双版本并行
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/gmaxxxie/ai-survival-guide-graduate)](https://github.com/gmaxxxie/ai-survival-guide-graduate/stargazers)
@@ -30,6 +30,23 @@ phases/
 ├── 06-创业与软技能/      ← AI创业 + 职场软技能
 └── 07-总结/
 ```
+
+---
+
+## 两个版本，怎么选？
+
+| 分支 | 适用人群 | 核心框架 |
+|------|---------|---------|
+| `main`（当前） | 理工科（计算机/电子/机械/数学/物理等） | Awakening → Skill Tree → Project → Resume/Interview → Day-one → First Month → Day60-100 → Knowledge → Career → AI+You → Startup → Soft Skills |
+| `arts` | 文科/商科/艺术/法学等非技术背景 | 文字感知力 + 叙事能力 + 三叶草 + 作品集思维 + AI翻译官 + 感知力职场 |
+
+切换版本：
+```bash
+git checkout main   # 理工科版
+git checkout arts   # 文科/商科版
+```
+
+---
 
 每个 lesson 包含：
 - `outputs/skill-*.md` — AI导师角色提示词，注入你的AI助手
